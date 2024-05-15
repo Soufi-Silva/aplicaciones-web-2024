@@ -20,23 +20,41 @@ body{
     display: flex;
     justify-content: flex-start;
 }
-.boton-a{
+
+.botones{
     display: flex;
     justify-content: flex-end;
 }
+
 .boton-a a{
     background-color: rgb(197, 181, 211);
     display: block;
     text-align: center;
     text-decoration: none;
     color: white;
-    padding:15px 20px;
+    padding:5px 60px;
     border-radius: 8px;
     box-shadow: 3px 3px 15px purple;
     width: 150px;
     margin-left: 5px;
+    max-width: 50%;
+}
+
+.boton-aa a{
+    background-color: rgb(197, 181, 211);
+    display: none;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding:5px 60px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 15px purple;
+    width: 150px;
+    margin-left: 5px;
+    max-width: 50%;
 
 }
+
 .contenedor_c{
     display: flex;
     flex-direction: column;
@@ -64,6 +82,11 @@ body{
 .c2-right{
     background-color:rgb(146, 98, 192);
     color:white;
+}
+
+.c2-right .boton-a{
+    display: flex;
+    justify-content: flex-start;
 }
 
 .c3-under-left{
@@ -114,4 +137,15 @@ body{
 
 .footer{
     text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .boton-aa a{
+        display: block;
+    }
+
+    boton-a{
+        display:flex;
+        margin-left: 10px;
+    }
 }
