@@ -3,6 +3,7 @@ body{
     font-size: 16px;
     margin: 0;
     padding: 0; 
+
 }
 
 .texto-justificado{
@@ -146,6 +147,18 @@ body{
 .link{
     text-align: end;
     margin-right: 30px;
+    background-color:rgb(225, 159, 174);
+    text-align: center;
+    padding:5px 60px;
+    border-radius: 8px;
+    margin-left: 5px;
+    max-width: 50%;
+}
+
+.perfil a{
+    border-radius: 5px;
+    text-decoration: none;
+    color:rgb(128, 0, 73);
 }
 
 .footer{
