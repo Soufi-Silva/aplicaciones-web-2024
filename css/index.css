@@ -363,7 +363,5 @@ body{
     .icon-link{
         flex-direction: row;
         justify-content: space-between;
-    }
-
-    
+    }   
 }
