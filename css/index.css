@@ -74,11 +74,12 @@ body{
     background-color:rgb(225, 159, 174);
     color:white;
     max-width: 800px;
+
 }
 
 .c1-left img{
     width: 100%; 
-    height: auto; 
+    height: 100%; 
     display: flex;
     align-items: stretch;
 }
@@ -87,15 +88,29 @@ body{
     background-color:rgb(193, 91, 117);
     color:white;
     order: -1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .c2-right a{
     margin-bottom: 20px;
 }
 
+.c2-right h2{
+    text-align: center;
+}
+
 .c3-under-left{
     background-color:rgb(193, 91, 117);
     color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.c3-under-left h2{
+    text-align: center;
 }
 
 .c4-under-right{
@@ -141,13 +156,14 @@ body{
         width: 50px;
         border-radius: 100px;
 }
+
 /*LINK E ICONOS*/
 .icon-link{
     margin-top: 30px;
     display: flex;
-    /*flex-direction: column;*/
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+
 }
 
 .link a{
@@ -188,6 +204,7 @@ body{
 .pag-inicio{
     display: flex;
     justify-content: end;
+    margin-top: 30px;
 }
 
 /*PIE DE PAGINA*/
@@ -225,6 +242,7 @@ body{
     border-top: 4px solid rgb(193, 91, 117);
     max-width: 1200px;
     margin-top: 30px;
+    text-align: center;
 }
 
 .img-pv{
@@ -262,8 +280,6 @@ body{
 
 
 }
-
-
  
 @media screen and (min-width: 768px) {
     .boton-aa a{
@@ -281,6 +297,7 @@ body{
         text-align: center;
         flex-direction: row;
         justify-content: center;
+
     }
 
     .c1-left{
@@ -292,14 +309,26 @@ body{
         width: 50%;
         height: auto;
         order:2;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .c2-right h2{
+        text-align: left;
     }
 
     .c3-under-left{
         width: 50%;
         height: auto;
         order: 3;
+        flex-direction: column;
+        align-items: flex-start;
     }
 
+    .c3-under-left h2{
+        text-align: left;
+    }
+    
     .c4-under-right{
         width: 50%;
         height: auto;
@@ -321,6 +350,11 @@ body{
         height: auto; 
         border-radius: 10px;
         box-shadow: 3px 3px 15px rgb(128, 0, 73);
+    }
+
+    .icon-link{
+        flex-direction: row;
+        justify-content: space-between;
     }
     
 }
