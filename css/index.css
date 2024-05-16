@@ -12,13 +12,13 @@ body{
     margin-left: 8px;
     margin-right: 8px;
 }
+
 .cabecera{
     display: flex;
     justify-content:space-between;
     align-items: center;
     padding: 5px;
 }
-
 
 .emp-img{
     display: flex;
@@ -29,21 +29,6 @@ body{
 .botones{
     display: flex;
     justify-content: flex-end;
-}
-
-.boton-pv a{
-    background-color:rgb(225, 159, 174);
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    padding:5px 60px;
-    border-radius: 8px;
-    box-shadow: 10px 10px 15px rgb(128, 0, 73);
-    width: 150px;
-    margin-left: 5px;
-    max-width: 50%;
-    margin-top: 30px;
 }
 
 .boton-a a{
@@ -79,16 +64,11 @@ body{
     display: flex;
     flex-direction: column;
 }
+
 .contenedor_c h2 {
     text-align: left;
     margin-left: 10px;
 }
-
-/*.img-logo{
-    max-width: 100%;
-    height: auto;  
-
-}*/
 
 .c1-left{
     background-color:rgb(225, 159, 174);
@@ -109,9 +89,8 @@ body{
     order: -1;
 }
 
-.c2-right boton-a{ /*REVISAAAAR*/
-    display: flex;
-    justify-content: flex-start;
+.c2-right a{
+    margin-bottom: 20px;
 }
 
 .c3-under-left{
@@ -136,34 +115,7 @@ body{
     gap: 20px;
 }
 
-.icon-link{
-    margin-top: 30px;
-    display: flex;
-    /*flex-direction: column;*/
-    align-items: center;
-    justify-content: space-between;
-}
-
-.link{
-    text-align: end;
-    margin-right: 30px;
-    background-color:rgb(225, 159, 174);
-    text-align: center;
-    padding:5px 60px;
-    border-radius: 8px;
-    margin-left: 5px;
-    max-width: 50%;
-}
-
-.perfil a{
-    border-radius: 5px;
-    text-decoration: none;
-    color:rgb(128, 0, 73);
-}
-
-.footer{
-    text-align: center;
-}
+/*TARJETAS DE PERSONAS*/
 
 .card{
     background-color: rgb(225, 159, 174);
@@ -189,10 +141,39 @@ body{
         width: 50px;
         border-radius: 100px;
 }
+/*LINK E ICONOS*/
+.icon-link{
+    margin-top: 30px;
+    display: flex;
+    /*flex-direction: column;*/
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link a{
+    text-align: end;
+    margin-right: 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    color:rgb(128, 0, 73);
+    box-shadow: 3px 3px 15px rgb(128, 0, 73);
+    background-color: white;
+    padding: 10px 20px;
+
+}
+
+/*DESARROLLADOR*/
 .desarrollador{
     display: flex;
     justify-content: center;
 }
+
+.perfil a{
+    border-radius: 5px;
+    text-decoration: none;
+    color:rgb(128, 0, 73);
+}
+
 .perfil{
     background-color: rgb(255, 255, 255);
     border: 1px solid rgb(167, 6, 46);
@@ -208,11 +189,33 @@ body{
     display: flex;
     justify-content: end;
 }
+
+/*PIE DE PAGINA*/
+.footer{
+    text-align: center;
+}
+
 /*PROPUESTA DE VALOR*/
 .propuesta-valor{
     display: flex;
     justify-content: center;
 }
+
+.boton-pv a{
+    background-color:rgb(225, 159, 174);
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding:5px 60px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 15px rgb(128, 0, 73);
+    width: 150px;
+    margin-left: 5px;
+    max-width: 50%;
+    margin-top: 30px;
+}
+
 .ideas{
     background-color: rgb(255, 255, 255);
     border: 1px solid rgb(167, 6, 46);
@@ -251,6 +254,15 @@ body{
     margin-top: 30px;
 
 }
+
+.pag-inicio a{
+    border-radius: 5px;
+    text-decoration: none;
+    color:rgb(128, 0, 73);
+
+
+}
+
 
  
 @media screen and (min-width: 768px) {
