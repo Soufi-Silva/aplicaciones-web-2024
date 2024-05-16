@@ -61,6 +61,7 @@ body{
     display: flex;
     flex-direction: column;
 }
+
 /*.img-logo{
     max-width: 100%;
     height: auto;  
@@ -82,6 +83,7 @@ body{
 .c2-right{
     background-color:rgb(193, 91, 117);
     color:white;
+    order: -1;
 }
 
 .c2-right .boton-a{
@@ -127,17 +129,11 @@ body{
     text-align: center;
 }
 
-/*.id{
-    display: flex;
-    justify-content: space-between;
-}*/
-
 .card{
-    background-color: rgb(188, 188, 188);
+    background-color: rgb(238, 189, 201);
     border-radius: 10px;
     padding: 25px;
     margin-top: 40px;
-    /*height: 200px;*/
 }
 .card p{
     color: rgb(146, 98, 192);
@@ -170,6 +166,7 @@ body{
         display: flex;
         flex-flow: row wrap;
         text-align: center;
+        flex-direction: row;
     }
 
     .c1-left{
@@ -180,22 +177,27 @@ body{
     .c2-right{
         width: 50%;
         height: auto;
+        order:2;
     }
 
     .c3-under-left{
         width: 50%;
         height: auto;
+        order: 3;
     }
 
     .c4-under-right{
         width: 50%;
         height: auto;
+        order: 4;
     }
 
     .id{
         display: flex;
         gap: 20px;
         align-items: flex-start;
+        margin-left: 20px;
+        margin-right: 20px;
     }
    
 }
