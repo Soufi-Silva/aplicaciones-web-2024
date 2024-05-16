@@ -76,6 +76,7 @@ body{
 .c1-left{
     background-color:rgb(225, 159, 174);
     color:white;
+    max-width: 800px;
 }
 
 .c1-left img{
@@ -91,7 +92,7 @@ body{
     order: -1;
 }
 
-.c2-right .boton-a{
+.c2-right boton-a{ /*REVISAAAAR*/
     display: flex;
     justify-content: flex-start;
 }
@@ -119,10 +120,11 @@ body{
 }
 
 .icon-link{
+    margin-top: 30px;
     display: flex;
-    flex-direction: column;
+    /*flex-direction: column;*/
     align-items: center;
-   /* justify-content: space-between;*/
+    justify-content: space-between;
 }
 
 .link{
@@ -139,6 +141,8 @@ body{
     border-radius: 10px;
     padding: 25px;
     margin-top: 40px;
+    box-shadow: 3px 3px 15px rgb(128, 0, 73);
+    border-top: 5px solid rgb(193, 91, 117);
 }
 .card p{
     color: rgb(167, 6, 46);
@@ -176,6 +180,20 @@ body{
     justify-content: end;
 }
 
+.propuesta-valor{
+    display: flex;
+    justify-content: center;
+}
+.ideas{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(167, 6, 46);
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px rgb(128, 0, 73);
+    padding: 30px;
+    border-top: 4px solid rgb(193, 91, 117);
+    max-width: 800px;
+    margin-top: 30px;
+}
 
 
 @media screen and (min-width: 768px) {
@@ -193,6 +211,7 @@ body{
         flex-flow: row wrap;
         text-align: center;
         flex-direction: row;
+        justify-content: center;
     }
 
     .c1-left{
@@ -225,4 +244,5 @@ body{
         margin-left: 20px;
         margin-right: 20px;
     }
+
 }
